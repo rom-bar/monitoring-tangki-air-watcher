@@ -1,8 +1,8 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 
-#define TRIGGER 5
-#define ECHO    4
+#define TRIGGER 5 //Pin D1
+#define ECHO    4 //Pin D2
 
 void setup() {                
   WiFi.begin("YOURWIFISSID", "YOURWIFIPASS");
